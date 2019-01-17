@@ -1,0 +1,160 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* mobile devices */
+@media (max-width: 449px){
+    body {
+        margin: 0;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .container {
+        width: 445px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header {
+        width: 100%;
+        background: url("../img/body.jpg");
+        background-position: 10px;
+        text-align: center;        
+    }
+
+
+    .main {
+        width: 100%;
+        text-align: center;
+        background-color: #fffff0;
+        
+    }
+
+    .body-img {
+        display: none;
+    }
+
+    .icon {display: none;}
+
+    .title {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .title-text {
+        color: white;
+        width: 100%;
+        order: 2;
+    }
+
+    .full-name {
+        font-size: 20px;
+        font-weight: 700;    
+        text-transform: uppercase;    
+    }
+
+    .full-name .last-name {
+        color: #FFF16B;
+        display: inline-block;
+    }
+
+    .full-name h1 {
+        margin-bottom: 0;
+    }
+    
+
+    .profile {
+        order: 1;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 200px;
+        background-repeat: no-repeat;
+        background-image: url("../img/profile.jpeg");
+        background-position: -9.5em -11em;
+        background-size: 525px, cover;
+        border-radius: 50%;
+        border: solid 2px #fffff0;;
+    }
+
+    .featured-work h2 {
+        text-transform: uppercase;
+    }
+
+    .main h2 {
+        text-transform: uppercase;
+    }
+
+    .project {
+        border-top: 2px solid white;
+    }
+
+    .project img {
+        border: 5px solid white;
+    }
+
+    .project-role p{
+        padding-top: 10px;
+        margin: 0 0 0 10px;
+
+    }
+
+    .project-role {
+        background-color: lightgray;
+        height: 40px;
+        text-align: left;
+    }
+
+    .project-link {
+        background-color: black;
+        text-align: left;
+        height: 40px;
+    }
+    .project-link p {
+        padding-top: 10px;
+        margin: 0 0 0 10px;
+        text-decoration: none;
+        color: white;
+
+    }
+}
+
+/* .container {
+
+}
+
+.header {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.profile {
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-image: url("../img/profile.jpeg");
+    background-position: center -10em;
+    background-size: 525px, cover;
+    border-radius: 50%;
+    border: solid 1px yellow;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+}
+
+.title {
+    display: inherit;
+}
+
+.title-text{
+    margin-right: 30px;
+    text-transform: uppercase;
+} */
