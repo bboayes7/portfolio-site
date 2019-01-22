@@ -1,0 +1,155 @@
+    /* adding quick responsiveness to all images */
+    img {
+        width: 100%;
+    }
+
+
+/* mobile devices */
+@media screen and (max-width: 449px){
+
+    /* container that holds header and main */
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* the first div that holds icon, and title */
+    header {
+        width: 100%;
+        background: url(../img/body.jpg);
+        background-position: 10px;
+        text-align: center;        
+    }
+
+    /* the second div that holds body-img, about me text, and featured-work */
+    main {
+        width: 100%;
+        text-align: center;
+        background-color: #fffff0;    
+    }
+
+    /* dont show body-img on cell phones. let it be background image for name and profile */
+    .body-img {
+        display: none;
+    }
+
+    /*set icon dimensions*/
+    .icon {
+        height: 100px;
+        width: 100px;
+    }
+
+    svg {
+        fill: white;
+        overflow: scroll;
+    }
+
+    /* within the header div that holds title-text and profile pic */
+    .title {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    /*title-text holes full-name and job-label */
+    .title-text {
+        color: white;
+        width: 100%;
+        order: 2;
+    }
+
+    /*div that has my full name and i want to change the color of my last name */
+    .full-name {
+        font-size: 20px;
+        font-weight: 700;    
+        text-transform: uppercase;    
+    }
+
+    /* changes color of my last name */
+    .full-name .last-name {
+        color: #FFF16B;
+        display: inline-block;
+    }
+
+    /* the h1 has weird spacing from the job-label div */
+    .full-name h1 {
+        margin-bottom: 0;
+    }
+    
+    /* made a profile div to hold my profile pic and made it into the background. this code has the best position of my face within the div */
+    .profile {
+        order: 0;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 200px;
+        background-repeat: no-repeat;
+        background-image: url(../img/profile.jpeg);
+        background-position: -9.5em -11em;
+        background-size: 525px, cover;
+        border-radius: 50%;
+        border: solid 2px #fffff0;;
+    }
+
+
+
+    /* gave projects a border to have some spacing between themselves */
+    .project {
+        border-top: 2px solid white;
+    }
+
+
+}
+
+/* tablet devices */
+@media screen and (max-width: 770px) {
+    .container {
+        background-color: #fffff0;
+    }
+
+    header {
+        display: inline-flex;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    svg {
+        fill: black;
+    }
+
+    .profile {
+        border: 2px solid black;
+    }
+
+    .full-name .last-name {
+        display: inline-block;
+    }
+
+    .project h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 771px){
+    .featured-work {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        width: 33%;
+        margin: 0 2px 0 0;
+    }
+
+    .project img {
+        height: 150px;
+    }
+}
