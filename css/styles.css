@@ -2,8 +2,6 @@
     font-family: 'Source Code Pro', monospace;
 }
 
-
-
 .container {
     width: 900px;
     margin: 0 auto 0 auto;
@@ -38,8 +36,6 @@ header {
     border: solid 2px #000000;;
 }
 
-
-
 .title {
     display: inherit;
 }
@@ -49,41 +45,41 @@ header {
     text-transform: uppercase;
 }
 
-    /* changing the featured work into uppercase */
-    .featured-work h2 {
-        text-transform: uppercase;
-    }
+/* changing the featured work into uppercase */
+.featured-work h2 {
+    text-transform: uppercase;
+}
 
-    /* changing the about me into uppercase */
-    main h2 {
-        text-transform: uppercase;
-        width: 100%;
-    }
+/* changing the about me into uppercase */
+main h2 {
+    text-transform: uppercase;
+    width: 100%;
+}
 
 
-        /* the p tags needed to be positioned neatly inside the div */
-        .project-role p, .project-link p {
-            padding-top: 10px;
-            margin: 0 0 0 10px;
-        }
-    
-        /* general stylings for project-role and project-link*/
-        .project-role, .project-link {
-            text-align: left;
-            height: 40px;
-        }
-    
-        /*background colors for project-role and project-link */
-        .project-role {
-            background-color: lightgray;
-        }
-    
-        .project-link {
-            background-color: black;
-        }
-    
-        /* additional stylings for project-link */
-        .project-link a {
-            text-decoration: none;
-            color: white;
-        }
+/* the p tags needed to be positioned neatly inside the div */
+.project-role p, .project-link p {
+    padding-top: 10px;
+    margin: 0 0 0 10px;
+}
+
+/* general stylings for project-role and project-link*/
+.project-role, .project-link {
+    text-align: left;
+    height: 40px;
+}
+
+/*background colors for project-role and project-link */
+.project-role {
+    background-color: lightgray;
+}
+
+.project-link {
+    background-color: black;
+}
+
+/* additional stylings for project-link */
+.project-link a {
+    text-decoration: none;
+    color: white;
+}

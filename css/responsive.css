@@ -2,8 +2,6 @@
     img {
         width: 100%;
     }
-
-
 /* mobile devices */
 @media screen and (max-width: 449px){
 
@@ -91,15 +89,10 @@
         border-radius: 50%;
         border: solid 2px #fffff0;;
     }
-
-
-
     /* gave projects a border to have some spacing between themselves */
     .project {
         border-top: 2px solid white;
     }
-
-
 }
 
 /* tablet devices */
@@ -137,6 +130,7 @@
     }
 }
 
+/* desktop */
 @media screen and (min-width: 771px){
     .featured-work {
         width: 100%;
